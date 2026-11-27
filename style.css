@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+
+    /* Gradient Background */
+    background: linear-gradient(
+        to right,
+        #673ab7,
+        #9c27f0,
+        #673080,
+        #626a8c
+    );
+
+    /* Center the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading Styling */
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transform: translateX(100px);
+}
